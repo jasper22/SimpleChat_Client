@@ -1,0 +1,17 @@
+# 
+# GiIgnore based on Ladices version: https://github.com/Ladicek/modern-web-demos/blob/master/.gitignore
+
+pubspec.lock
+packages
+*.iml
+.idea
+*.dart.js
+*.dart.js.map
+*.dart.js.deps
+*.buildlog
+
+#
+# Folders to ignore
+
+**/web/out/
+log/
