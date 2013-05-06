@@ -115,11 +115,11 @@ class BuildUI
     }
 
     mainView = new View();
-    mainView.profile.width = '100%';
-    mainView.profile.height = '100%';
+    mainView.profile.width = 'flex';
+    mainView.profile.height = 'flex';
     mainView.layout.type = 'linear';
     mainView.layout.orient = 'vertical';
-    mainView.style.cssText = "background: yellow;";
+    mainView.style.cssText = "background: green;";
 
     View vWorkSpace = new View();
     vWorkSpace.id = 'vWorkSpace';
@@ -158,6 +158,7 @@ class BuildUI
           }
         );
 
+    vWorkSpace.style.cssText = "background: blue;";
     vWorkSpace.addChild(vLeftBar);
 
     //
@@ -168,8 +169,7 @@ class BuildUI
     vMiddleTab.profile.height = 'flex';
     vMiddleTab.layout.type = 'linear';
     vMiddleTab.layout.orient = 'horizontal';
-    vMiddleTab.style.border = "1px solid #663";
-
+    vMiddleTab.style.cssText = "background: yellow;";
 
     vWorkSpace.addChild(vMiddleTab);
 
@@ -181,7 +181,6 @@ class BuildUI
     vFooter.id = 'vFooter';
     vFooter.profile.width = 'flex';
     vFooter.profile.height = '20%';
-    vFooter.style.border = "1px solid #663";
     vFooter.style.cssText = "background: black;";
     mainView.addChild(vFooter);
 

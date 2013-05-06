@@ -2,7 +2,7 @@ import 'dart:html';
 import 'dart:async';
 import 'dart:json' as JSON;
 
-import 'package:RikuloChatShared/RikuloChatShared.dart';
+import 'package:rikulochatshared/rikulochatshared.dart';
 
 /*
  * Class will 'pull' news from server

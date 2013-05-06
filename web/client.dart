@@ -4,7 +4,7 @@ import 'package:web_ui/web_ui.dart';
 
 import 'lib/RikuloChatClient.dart';
 
-import 'NewsProxy.dart';
+import 'lib/news_proxy.dart';
 
 
 void main()

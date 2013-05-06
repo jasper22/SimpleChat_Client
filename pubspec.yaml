@@ -3,11 +3,11 @@ version: 0.0.1
 author: Aleksandr <jjasper22@gmail.com>
 description: RikuloChat client
 dependencies:
+  rikulochatshared:
+    path: ../Shared
   oauth2: any
   js: any
   google_oauth2_client: any
   browser: any
   web_ui: any
   rikulo_ui: any
-  RikuloChatShared:
-    path: ../Shared
