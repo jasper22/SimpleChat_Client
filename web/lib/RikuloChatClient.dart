@@ -12,6 +12,7 @@ import 'package:rikulo_ui/view.dart';
 import "package:rikulo_commons/util.dart";
 import "package:rikulo_commons/async.dart";
 import 'package:rikulo_commons/html.dart';
+import 'package:rikulochatshared/rikulochatshared.dart';
 
 //
 // Google SingIn
@@ -21,6 +22,7 @@ import 'package:google_oauth2_client/google_oauth2_browser.dart';
 //
 //
 part 'UI/UIBuilder.dart';
+part 'news_proxy.dart';
 
 
 /*

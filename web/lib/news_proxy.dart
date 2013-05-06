@@ -1,8 +1,5 @@
-import 'dart:html';
-import 'dart:async';
-import 'dart:json' as JSON;
 
-import 'package:rikulochatshared/rikulochatshared.dart';
+part of rikulochat_client;
 
 /*
  * Class will 'pull' news from server
